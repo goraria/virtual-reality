@@ -62,7 +62,9 @@
   <ItemGroup>
     <Compile Include="Assets/Scripts/PickupController.cs" />
     <Compile Include="Assets/Scripts/FanSwitchController.cs" />
+    <Compile Include="Assets/Scripts/AutoFlip.cs" />
     <Compile Include="Assets/Scripts/Jang.cs" />
+    <Compile Include="Assets/Scripts/NoteController.cs" />
     <Compile Include="Assets/Scripts/Raycast.cs" />
     <Compile Include="Assets/Scripts/DoorRaycast.cs" />
     <Compile Include="Assets/Scripts/PersonLook.cs" />
@@ -72,6 +74,7 @@
     <Compile Include="Assets/Scripts/LightSwitchController.cs" />
     <Compile Include="Assets/Scripts/FanController.cs" />
     <Compile Include="Assets/Scripts/CelingFanRotation.cs" />
+    <Compile Include="Assets/Scripts/BookController.cs" />
     <Compile Include="Assets/Scripts/DoorMovement.cs" />
     <Compile Include="Assets/Scripts/CameraController.cs" />
     <Compile Include="Assets/Scripts/CeilingRaycast.cs" />
