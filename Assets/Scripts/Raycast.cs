@@ -115,7 +115,7 @@ public class Raycast : MonoBehaviour {
                 }
             }
 
-            if (Input.GetKeyDown(interactKey)) {
+            if (Input.GetKeyDown(interactKey2)) {
                 ToggleBookCanvas();
             }
         } else if (Physics.Raycast(_camera.ViewportToWorldPoint(new Vector3(0.5f, 0.5f)), transform.forward, out hit, rayLength)) {
@@ -150,7 +150,7 @@ public class Raycast : MonoBehaviour {
         }
 
         if (_noteController != null) {
-            if (Input.GetKeyDown(interactKey)) {
+            if (Input.GetKeyDown(interactKey2)) {
                 _noteController.ShowNote();
             }
         }

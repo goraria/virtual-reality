@@ -7,20 +7,23 @@ public class NoteController : MonoBehaviour {
     [Header("Input")]
     [SerializeField] private KeyCode closeKey;
 
-    [Space(10)]
-    [SerializeField] private PersonMovement player;
+    //[Space(10)]
+    //[SerializeField] private PersonMovement player;
 
     [Header("UI Text")]
     [SerializeField] private GameObject noteCanvas;
     // [SerializeField] private TMP_Text noteTextAreaUI;
 
-    [Space(10)]
-    [SerializeField]
-    [TextArea] private string noteText;
+    //[Space(10)]
+    //[SerializeField]
+    //[TextArea] private string noteText;
 
     [Space(10)]
-    [SerializeField] private UnityEvent openEvent;
+    [SerializeField]
+    private UnityEvent openEvent;
+
     private bool isOpen = false;
+
     public void ShowNote() {
         // noteTextAreaUI.text = noteText;
         noteCanvas.SetActive(true);
